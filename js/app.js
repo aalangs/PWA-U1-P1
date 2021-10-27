@@ -1,6 +1,6 @@
 //Preguntamos si el navegador tiene ServiceWorker
 let url = window.location.href;
-let swDirect = "/miRepositorio/sw.js"
+let swDirect = "/PWA-U1-P1/sw.js"
 
 if (navigator.serviceWorker) {
     console.log("Service Worker disponible")
